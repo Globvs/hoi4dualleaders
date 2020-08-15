@@ -46,7 +46,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 19 y = 336 }
+			position = { x= 24 y = 340 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
@@ -74,7 +74,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 270 y = 335 }
+			position = { x= 275 y = 339 }
 			size = { width=100 height=100 }
 			clipping = no
 
@@ -138,7 +138,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ruling_party_info"
-			position = { x = 88 y = 336 }
+			position = { x = 93 y = 340 }
 			size = { width = 255 height = 60 }
 			clipping = no
 					
@@ -282,7 +282,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 361 y = 48 }
+			position = { x = 361 y = 50 }
 			size = { width = 330 height = 50 }
 			clipping = no
 						
@@ -517,14 +517,14 @@ guiTypes = {
 		buttonType = {
 			name = "manage_occupied_button"
 			position = { x = 564 y = 329 }
-			quadTextureSprite = "GFX_button_148x34"
+			quadTextureSprite = "GFX_button_148x31"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 576 y = 338 }
+			position = { x = 576 y = 336 }
 			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
@@ -533,19 +533,19 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "subjects_button_container"
-			position = { x = 564 y = 394 }
+			position = { x = 564 y = 387 }
 
 			buttonType = {
 				name = "show_subjects_button"
 				position = { x = 0 y = 0 }
-				quadTextureSprite = "GFX_button_148x34"
+				quadTextureSprite = "GFX_button_148x31"
 				buttonFont = "hoi_16mbs"
 				Orientation = "UPPER_RIGHT"
 			}
 
 			instantTextboxType = {
 				name = "show_subjects_button_text"
-				position = { x = 12 y = 9 }
+				position = { x = 12 y = 7 }
 				font = "hoi_16mbs"
 				text = "MANAGE_SUBJECTS"
 				Orientation = "CENTER"
@@ -564,8 +564,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "show_exiles_collaborations_button"
-			position = { x = 564 y = 362 }
-			quadTextureSprite = "GFX_button_148x34"
+			position = { x = 564 y = 358 }
+			quadTextureSprite = "GFX_button_148x31"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 			format = right
@@ -573,7 +573,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = 576 y = 371 }
+			position = { x = 576 y = 365 }
 			font = "hoi_16mbs"
 			maxWidth = 123
 			maxHeight = 20
@@ -969,24 +969,24 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "political_party_info_entry"
-		size = { width = 330 height = 49 }
+		size = { width = 335 height = 53 }
 		clipping = no
 
 		iconType = {
 			name = "leading_pol_party_bg"
-			position = { x = 60 y = 36 }
+			position = { x = 65 y = 40 }
 			spriteType = "GFX_leading_pol_party_bg"
 		}		
 		
 		iconType = {
 			name = "color_block_bg"
-			position = { x = 60 y = 33 }
+			position = { x = 65 y = 37 }
 			spriteType = "GFX_pol_party_colour_bg"
 		}
 		
 		iconType = {
 			name = "color_block"
-			position = { x = 64 y = 37 }
+			position = { x = 69 y = 41 }
 			spriteType = "GFX_pol_party_colour"
 		}
 		
@@ -1001,7 +1001,7 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "name"
-			position = { x = 82 y = 35 }
+			position = { x = 87 y = 39 }
 			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
@@ -1012,8 +1012,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "manage_subjects_window"
-		position = { x = -356 y = 80 }	
-		show_position = { x = 537 y = 80 }
+		position = { x = -174 y = 80 }	
+		show_position = { x = 719 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -1195,8 +1195,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "exiles_window"
-		position = { x = -356 y = 80 }	
-		show_position = { x = 537 y = 80 }
+		position = { x = -174 y = 80 }	
+		show_position = { x = 719 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -1529,8 +1529,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "manage_occupied_window"
-		position = { x = -356 y = 80 }	
-		show_position = { x = 537 y = 80 }
+		position = { x = -174 y = 80 }	
+		show_position = { x = 719 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300

@@ -1,6 +1,15 @@
 spriteTypes = {
+
 	spriteType = {
 		name = "GFX_header_bg_political"
 		texturefile = "gfx/interface/header_bg_political.dds"
 	}
+
+	textSpriteType = {
+		name = "GFX_button_148x31"
+		texturefile = "gfx/interface/button_148x31.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
 }
