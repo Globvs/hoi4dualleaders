@@ -16,8 +16,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ENG_George_V"
-		texturefile = "gfx/dual_leaders/ENG/ENG_George_V.dds"
+		name = "GFX_diplo_leader_frame_2"
+		texturefile = "gfx/interface/diplo_leader_frame_2.dds"
 	}
 
 	textSpriteType = {
@@ -27,4 +27,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
+	# Country Specific Portraits
+
+	spriteType = {
+		name = "GFX_ENG_George_V"
+		texturefile = "gfx/dual_leaders/ENG/ENG_George_V.dds"
+	}
 }

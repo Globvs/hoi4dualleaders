@@ -5,9 +5,10 @@
  dual_leader_name:0 "[ROOT.GetDualLeaderName]"
  DEFAULT_TITLE:0 "Vacant"
  second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
- second_leader_diplo_tt:0 "§Y[GetDualLeaderName]§!"
+ first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetName]"
+ second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!"
     # Nation Specific Localisation
  ENG_PRIME_MINISTER_TITLE:0 "Prime Minister"
  ENG_PRIME_MINISTER_TITLE:0 "Prime Minister"
  ENG_KING_TITLE:0 "Monarch"
- ENG_GEORGE_V:0 "Edward VIII"
+ ENG_GEORGE_V:0 "George V"
