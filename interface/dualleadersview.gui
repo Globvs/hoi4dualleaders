@@ -1,0 +1,60 @@
+guiTypes = {
+	containerWindowType = {
+		name = "dual_leader_politics_view_container"
+		position = { x = 0 y = 0 }
+		
+		iconType ={
+			name ="dual_leader_portrait"
+			spriteType = "GFX_portrait_bg_blank"
+			position = { x = 193 y = 87 }
+
+			pdx_tooltip = second_leader_tt
+		}
+		
+		iconType ={
+			name ="dual_leader_bg"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 185 y = 44 }
+			alwaystransparent = yes
+		}
+
+		### For Leader #1
+
+		instantTextBoxType = {
+			name ="first_leader_title_text"
+			position = { x = 18 y = 57 }
+			font = "hoi_16mbs"
+			text = "first_leader_title"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		### For Leader #2
+
+		instantTextBoxType = {
+			name ="second_leader_title_text"
+			position = { x = 193 y = 57 }
+			font = "hoi_16mbs"
+			text = "second_leader_title"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextBoxType = {
+			name ="dual_leader_name_text"
+			position = { x = 193 y = 298 }
+			font = "hoi_18mbs"
+			text = "dual_leader_name"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+
+			pdx_tooltip = second_leader_tt
+		}
+	}
+}

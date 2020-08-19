@@ -5,6 +5,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/header_bg_political.dds"
 	}
 
+	spriteType = {
+		name = "GFX_diplo_header_bg"
+		texturefile = "gfx/interface/diplo_header_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bg_blank"
+		texturefile = "gfx/interface/portrait_bg_blank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ENG_George_V"
+		texturefile = "gfx/dual_leaders/ENG/ENG_George_V.dds"
+	}
+
 	textSpriteType = {
 		name = "GFX_button_148x31"
 		texturefile = "gfx/interface/button_148x31.dds"

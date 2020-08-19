@@ -153,7 +153,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 9 y = 8 }
+				position = { x = 9 y = 4 }
 				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 155
@@ -162,7 +162,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 34 }
+				position = { x = 9 y = 32 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
@@ -171,7 +171,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 285 y = -45 }
+				position = { x = 274 y = -49 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 193
@@ -181,7 +181,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = 482 y = -50 }
+				position = { x = 482 y = -54 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
@@ -191,7 +191,7 @@ guiTypes = {
 						
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 170 y = 242 }
+			position = { x = 352 y = 275 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
@@ -282,7 +282,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 361 y = 50 }
+			position = { x = 355 y = 50 }
 			size = { width = 330 height = 50 }
 			clipping = no
 						
@@ -387,7 +387,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "national_spirit"
 			position = { x = 263 y = 153 }
-			size = { width = 360 height = 50 }
+			size = { width = 360 height = 100 }
 			clipping = no
 						
 			instantTextboxType = {
@@ -404,9 +404,10 @@ guiTypes = {
 			containerWindowType = {
 				name = "national_spirit_container"
 				position = { x = 90 y = 19 }
-				size = { width = 365 height = 68 }
+				size = { width = 365 height = 101 }
 				
 				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 0 bottom = 0 }
 				
 				background = {
 					name = "Background"
@@ -418,7 +419,7 @@ guiTypes = {
 					position = { x = 12 y = 0 }
 					size = { width = 350 height = 100%% }
 					slotsize = { width = 60 height = 68 }
-					max_slots = { x = 8 y = 1 }
+					max_slots = { x = 5 y = 2 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
@@ -516,7 +517,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 564 y = 329 }
+			position = { x = 564 y = 331 }
 			quadTextureSprite = "GFX_button_148x31"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -524,7 +525,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 576 y = 336 }
+			position = { x = 576 y = 338 }
 			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
@@ -533,7 +534,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "subjects_button_container"
-			position = { x = 564 y = 387 }
+			position = { x = 564 y = 389 }
 
 			buttonType = {
 				name = "show_subjects_button"
@@ -564,7 +565,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "show_exiles_collaborations_button"
-			position = { x = 564 y = 358 }
+			position = { x = 564 y = 360 }
 			quadTextureSprite = "GFX_button_148x31"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -573,7 +574,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = 576 y = 365 }
+			position = { x = 576 y = 367 }
 			font = "hoi_16mbs"
 			maxWidth = 123
 			maxHeight = 20
@@ -629,7 +630,7 @@ guiTypes = {
 			name = "ideas_grid"
 			position = { x = 17 y = 46 }
 			size = { width = 100%% height = 100%% }
-			slotsize = { width = 80 height = 64 }
+			slotsize = { width = 118 height = 64 }
 			max_slots = { x = 7 y = 1 }
 			format = "UPPER_LEFT"
 		}
@@ -1123,13 +1124,13 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 240 y = 20 }
+			position = { x = 422 y = 53 }
 			size = { width = 255 height = 60 }
 			clipping = no
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = -130 y = -8 }
+				position = { x = -312 y = -41 }
 				font = "hoi_16mbs"
 				text = "autonomy"
 				maxWidth = 158
@@ -1139,7 +1140,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "prev_autonomy_level"
-				position = { x = 72 y = -5 }
+				position = { x = -110 y = -38 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 
@@ -1153,7 +1154,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 77 y = 0 }
+				position = { x = -105 y = -33 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
@@ -1161,7 +1162,7 @@ guiTypes = {
 			iconType = {
 				name = "autonomy_progress"
 				spriteType = "GFX_subject_progressbar"
-				position = { x = 119 y = 9 }
+				position = { x = -63 y = -24 }
 				frame = 100
 			}
 			
@@ -1181,13 +1182,13 @@ guiTypes = {
 			
 			iconType = {
 				name = "next_autonomy_level_icon"
-				position = { x = 219 y = 0 }
+				position = { x = 37 y = -33 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
 			
 			iconType = {
 				name = "current_autonomy_level_icon"
-				position = { x = 31 y = -16 }
+				position = { x = -151 y = -49 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
 		}

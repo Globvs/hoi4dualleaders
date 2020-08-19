@@ -1,0 +1,56 @@
+# For the Duel Leader Title, Leader Names, and custom portrait!
+
+defined_text = {
+	name = GetFirstTitle
+	text = {
+		trigger = {
+			original_tag = ENG
+			has_government = democratic
+		}
+		localization_key = ENG_PRIME_MINISTER_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	text = {
+		trigger = {
+			original_tag = ENG
+			has_government = democratic
+		}
+		localization_key = ENG_KING_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+	text = {
+		trigger = {
+			original_tag = ENG
+			ENG = {
+				has_idea = george_v
+			}
+		}
+		localization_key = ENG_GEORGE_V
+	}
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderPortrait
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+			ENG = {
+				has_idea = george_v
+			}
+        }
+        localization_key = "GFX_ENG_George_V"
+	}
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
