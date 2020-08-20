@@ -4,6 +4,13 @@ defined_text = {
 	name = GetFirstTitle
 	text = {
 		trigger = {
+			tag = ROM
+			has_government = neutrality
+		}
+		localization_key = ROM_PRIME_MINISTER_TITLE
+	}
+	text = {
+		trigger = {
 			original_tag = ENG
 			has_government = democratic
 		}
@@ -18,6 +25,13 @@ defined_text = {
 	name = GetSecondTitle
 	text = {
 		trigger = {
+			tag = ROM
+			has_government = neutrality
+		}
+		localization_key = ROM_MONARCH_TITLE
+	}
+	text = {
+		trigger = {
 			original_tag = ENG
 			has_government = democratic
 		}
@@ -27,6 +41,13 @@ defined_text = {
 
 defined_text = {
 	name = GetDualLeaderName
+	text = {
+		trigger = {
+			tag = ROM
+			has_government = neutrality
+		}
+		localization_key = ROM_CAROL_II
+	}
 	text = {
 		trigger = {
 			original_tag = ENG
@@ -43,7 +64,13 @@ defined_text = {
 
 defined_text = {
     name = GetDualLeaderPortrait
-    
+	text = {
+		trigger = {
+			tag = ROM
+			has_government = neutrality
+		}
+		localization_key = GFX_ROM_Carol_II
+	}
     text = {
         trigger = {
 			original_tag = ENG

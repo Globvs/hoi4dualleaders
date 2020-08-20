@@ -14,6 +14,8 @@
  first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
     # Nation Specific Localisation
  ENG_PRIME_MINISTER_TITLE:0 "Prime Minister"
- ENG_PRIME_MINISTER_TITLE:0 "Prime Minister"
  ENG_KING_TITLE:0 "Monarch"
  ENG_GEORGE_V:0 "George V"
+ ROM_PRIME_MINISTER_TITLE:0 "Prime Minister"
+ ROM_MONARCH_TITLE:0 "Monarch"
+ ROM_CAROL_II:0 "Carol II"
