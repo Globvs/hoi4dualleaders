@@ -20,6 +20,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/diplo_leader_frame_2.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_bg_transparent"
+		texturefile = "gfx/interface/portrait_bg_transparent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplo_tab_extender"
+		texturefile = "gfx/interface/diplo_tab_extender.dds"
+	}
+
 	textSpriteType = {
 		name = "GFX_button_148x31"
 		texturefile = "gfx/interface/button_148x31.dds"

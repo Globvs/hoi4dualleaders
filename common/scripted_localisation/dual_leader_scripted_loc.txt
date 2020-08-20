@@ -9,6 +9,9 @@ defined_text = {
 		}
 		localization_key = ENG_PRIME_MINISTER_TITLE
 	}
+	text = {
+		localization_key = DEFAULT_FIRST_TITLE
+	}
 }
 
 defined_text = {
@@ -52,5 +55,33 @@ defined_text = {
 	}
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderDesc
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+			ENG = {
+				has_idea = george_v
+			}
+        }
+        localization_key = "DESCRIPTION_TEST"
+	}
+}
+
+defined_text = {
+    name = GetFirstLeaderDesc
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+			ENG = {
+				has_idea = george_v
+			}
+        }
+        localization_key = "FIRST_LEADER_DESC_TEST"
 	}
 }
