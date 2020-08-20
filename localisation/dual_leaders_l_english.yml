@@ -6,7 +6,6 @@
  DEFAULT_TITLE:0 "Vacant"
  DEFAULT_FIRST_TITLE:0 "Leader"
  DESCRIPTION_TEST:0 "His Majesty"
- FIRST_LEADER_DESC_TEST:0 ":plazatears:"
  second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
  first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetNameDef]"
  second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] of [From.GetNameDef]"
